@@ -40,8 +40,10 @@ Den LoadoutManager auswählen (Unterpunkt von GameMode) und in der Leiste rechts
 ## Spawn-Trigger mit dem "Scenario Framework"
 Im Resource Browser nach SF-Sample-TaskClearArea.ent suchen und doppelklicken. 
 
-"Save World As" in den eigenen Projektordner neben die eigene World. 
+"Save World As" in den eigenen Projektordner neben die eigene World.
+
 Ordner \worlds\SF-Sample-TaskClearArea_Layers öffnen.
+
 default.layer in etwas anderes wie z.B. scenario.layer umbenennen und in den Layer Ordner unserer World kopieren.
 
 Unsere World wieder öffnen durch Doppelklick auf die .ent-Datei.
@@ -58,15 +60,15 @@ Als Unterpunkt der Area findet man Layer_AI mit drei Slots. Es heißt zwar AI, a
 ## Missions-Config um es im Multiplayer starten zu können
 Diese IDs hier {8FD22B90CBC1D494} bekommt man, wenn man Zeug aus dem eigenen Addon-Ordner via Editor einfügt.
 
-Missions/5mike.conf
-```SCR_MissionHeader {
+```/missions/5mike.conf
+SCR_MissionHeader {
  World "{8FD22B90CBC1D494}worlds/Arland.ent"
  m_sName "5mike"
  m_sAuthor "MilSim United"
  m_sDescription "5mike"
- m_sIcon "{218F67A2EC0351AA}Assets/images/u.edds"
- m_sLoadingScreen "{218F67A2EC0351AA}Assets/images/u.edds"
- m_sPreviewImage "{218F67A2EC0351AA}Assets/images/u.edds"
+ m_sIcon "{218F67A2EC0351AA}assets/images/u.edds"
+ m_sLoadingScreen "{218F67A2EC0351AA}assets/images/u.edds"
+ m_sPreviewImage "{218F67A2EC0351AA}assets/images/u.edds"
  m_iPlayerCount 32
  m_eEditableGameFlags 7
  m_eDefaultGameFlags 7
@@ -78,10 +80,10 @@ Missions/5mike.conf
  m_fNightTimeAcceleration 12
  m_bMapMarkerEnableDeleteByAnyone 1
  m_iMapMarkerLimitPerPlayer 32
-}```
+}
 
-Missions/scenario.conf.meta
-```MetaFileClass {
+/missions/scenario.conf.meta
+MetaFileClass {
  Name "{FA38849EE56C68EB}Missions/5mike.conf"
  Configurations {
   CONFResourceClass PC {
@@ -96,3 +98,6 @@ Missions/scenario.conf.meta
   }
  }
 }```
+
+## TLDR - Gib mir die Dateien
+https://github.com/milsimunited/5mike/tree/main/5mike
