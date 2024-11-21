@@ -8,9 +8,8 @@ weil alles so anders ist als in Arma 3.
 
 ## Tipps
 
-Prefabs: Alles was wir im Resource Browser suchen, nehmen wir aus dem Ordner "Prefabs". Das sind funktionsfähig vorkonfigurierte Pakete, wo alle nötigen Komponenten schon dabei sind. Rechts in der Leiste kann man diese samt Unterkomponenten konfigurieren. Dabei nichts löschen, sondern nur deaktivieren.
-
-Positionierung: Dazu gibt es den Trick, ein vorhandenes Objekt auf der auszuwählen und in der rechten Leiste bei Transformation auf das Label "Coords" Rechtsklick und Copy zu machen, was alle drei Koordinaten mitnimmt, die man dann bei z.B. der Area reinpasten kann. Geht oft erheblich schneller.
+- Prefabs: Alles was wir im Resource Browser suchen, nehmen wir aus dem Ordner "Prefabs". Das sind funktionsfähig vorkonfigurierte Pakete, wo alle nötigen Komponenten schon dabei sind. Rechts in der Leiste kann man diese samt Unterkomponenten konfigurieren. Dabei nichts löschen, sondern nur deaktivieren.
+- Positionierung: Dazu gibt es den Trick, ein vorhandenes Objekt auf der auszuwählen und in der rechten Leiste bei Transformation auf das Label "Coords" Rechtsklick und Copy zu machen, was alle drei Koordinaten mitnimmt, die man dann bei z.B. der Area reinpasten kann. Geht oft erheblich schneller.
 
 
 ## Basis-Module und Spieler-Slots
@@ -28,14 +27,10 @@ Dort liegt dann eine .ent, eine .ent.meta und ein Ordner mit _Layers. Die .layer
 Jetzt kann man im eigentlichen Sinne loslegen.
 
 Folgende Prefabs platzieren:
-
-SCR_GameModeEditor
-
-PerceptionManager
-
-SCR_AIWorld_Eden
-
-SpawnPoint_ der gewünschten Faction
+- SCR_GameModeEditor
+- PerceptionManager
+- SCR_AIWorld_Eden
+- SpawnPoint_ der gewünschten Faction
 
 Den FactionManager auswählen (Unterpunkt von GameMode) und in der Leiste rechts bei der gewünschten Faction ein Häkchen bei "Is Playable" setzen.
 
