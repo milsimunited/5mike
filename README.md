@@ -28,9 +28,13 @@ Dort liegt dann eine .ent, eine .ent.meta und ein Ordner mit _Layers. Die .layer
 Jetzt kann man im eigentlichen Sinne loslegen.
 
 Folgende Prefabs platzieren:
+
 SCR_GameModeEditor
+
 PerceptionManager
+
 SCR_AIWorld_Eden
+
 SpawnPoint_ der gewünschten Faction
 
 Den FactionManager auswählen (Unterpunkt von GameMode) und in der Leiste rechts bei der gewünschten Faction ein Häkchen bei "Is Playable" setzen.
