@@ -64,7 +64,9 @@ Als Unterpunkt der Area findet man Layer_AI mit drei Slots. Es heißt zwar AI, a
 
 https://github.com/milsimunited/5mike/tree/main/5mike/missions
 
-Diese IDs hier {8FD22B90CBC1D494} bekommt man, wenn man Zeug aus dem eigenen Addon-Ordner via Editor einfügt.
+Diese Dateien kann man in der Workbench durch Doppelklick bearbeiten.
+
+Bebilderung: In der Workbench links unten gibt es die Buttons "Import" und "Create". Hier kann man JPGs importieren und in .edds Dateien umwandeln lassen.
 
 
 ## TLDR - Gib mir alle Dateien
