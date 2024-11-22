@@ -66,7 +66,7 @@ https://github.com/milsimunited/5mike/tree/main/5mike/missions
 
 Diese Dateien kann man in der Workbench durch Doppelklick bearbeiten.
 
-Bebilderung: In der Workbench links unten gibt es die Buttons "Import" und "Create". Hier kann man JPGs importieren und in .edds Dateien umwandeln lassen.
+Bebilderung: In der Workbench links unten gibt es die Buttons "Import" und "Create". Hier kann man JPGs importieren und in .edds Dateien umwandeln lassen. (https://forums.bohemia.net/forums/topic/272105-how-to-create-an-edds-file-for-images/)
 
 
 ## TLDR - Gib mir alle Dateien
